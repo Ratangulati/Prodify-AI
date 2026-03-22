@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//Users/ratangulati/Developer/Projects 2k26/**)",
+      "Bash(npx create-next-app@14 pm-cursor-temp --typescript --tailwind --eslint --app --no-src-dir --import-alias \"@/*\" --yes)",
+      "Bash(rsync -av --exclude='.git' pm-cursor-temp/ pm-cursor/)",
+      "Bash(npm install:*)",
+      "Bash(npx shadcn@latest init --yes --defaults)"
+    ]
+  }
+}
